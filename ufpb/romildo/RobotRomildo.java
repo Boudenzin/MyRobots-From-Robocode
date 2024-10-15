@@ -25,7 +25,7 @@ public class RobotRomildo extends AdvancedRobot
         while (true) {
             if (!enemyDetected) {
                 setAhead(100);  // Move-se para frente se não detectou inimigos
-				setFire(1000);
+		setFire(1000);
                 setTurnRadarRight(360);  // Escaneia periodicamente
             }
             if (hitByBullet) {
