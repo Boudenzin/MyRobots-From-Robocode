@@ -12,7 +12,7 @@ public class RobotRomildo extends AdvancedRobot
 	/**
 	 * run: RobotRomildo's default behavior
 	 */
-	private boolean enemyDetected = false;  // Para rastrear se detectou um inimigo
+    private boolean enemyDetected = false;  // Para rastrear se detectou um inimigo
     private double lastHitBearing = 0;      // Guarda a direção de onde foi atingido
     private boolean hitByBullet = false;    // Marca se foi atingido por uma bala
 
